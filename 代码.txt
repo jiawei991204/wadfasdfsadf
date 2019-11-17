@@ -1,0 +1,34 @@
+package Strig;
+
+public class hsdvf
+{
+	   public static void main(String args[ ])
+    {  	
+    
+    	String ddd=args[0];
+    	String dd=args[1];
+    	String s2="";
+    	for(int c=0;c<ddd.length()/7;c++)
+    		if(c%2==0)
+    			s2=s2+ddd.substring(0+7*c,7+7*c)+",";
+    		else
+    			s2=s2+ddd.substring(0+7*c,7+7*c)+"。";
+        for(int d=0;d<s2.length()/16;d++)
+        	System.out.print(s2.substring(0+16*d,16+16*d)+"\n");        
+    				
+    	int count = 0;		
+		String s3="";		
+		int index;		
+		while(ddd.contains(dd))
+		{			
+			count++;
+		    index = ddd.indexOf(dd);
+		    s3 = ddd.substring(index + dd.length());		
+		    ddd= s3;			
+		}	
+		System.out.println("count:" + count);	
+    
+
+
+    }
+}
