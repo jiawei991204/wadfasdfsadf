@@ -17,7 +17,7 @@
 <br>
 
 #流程图
-
+![image](https://github.com/jiawei991204/wadfasdfsadf/blob/master/901873982620321021.jpg)\
 #实验过程：
 <br> 运用gui，数组的添加删除，文件操作，输入输出以及异常处理进行编辑
 #核心代码：
