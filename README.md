@@ -78,7 +78,7 @@ import javax.swing.JButton;
 				buttonPane.add(okButton);
 				getRootPane().setDefaultButton(okButton);\<br>
 #实验截图
-![image](https://github.com/300tty/java/blob/master/%E6%8D%95%E8%8E%B7234245.jpg)\
+![image](https://github.com/jiawei991204/wadfasdfsadf/blob/master/901873982620321021.jpg)\
 #实验心得
 <br>这次将之前所有的实验进行了结合，有了一套完整一些的系统，学会了分析学生选课系统使用，运用了列表数组的添加，GUI窗体及其组件设计窗体界面，
 完成学生选课过程业务逻辑编程，基于文件保存并读取数据，也进行了异常处理
